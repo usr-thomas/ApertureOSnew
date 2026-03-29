@@ -41,6 +41,8 @@ after doing all this you have to set up the windows to match mine. Im using conk
 
 Some things are not going to work as expected, like seamod. You have to edit these manually, because the transparency breaks (for some reason) Either use **nano** to set the **own_window_type** to **desktop** or a file editor.
 
+![this!](assets/desktopexample.png)
+
 **Step 2: Desktop and fastfetch**
 
 Desktop bg is easy, just download the wallpaper.png and set it as your background. If you have another background, skip this part.
