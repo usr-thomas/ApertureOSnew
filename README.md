@@ -10,7 +10,8 @@ Keep in mind that if you want to rice this as Erlice did, you should probably us
 
 **Info**
 
-tiny repository to make your pc look like mine :)
+tiny repository to make your pc look like ![mine :)](ApertureOSnew/desktop.jpg)
+ :)
 
 DE: Gnome
 
