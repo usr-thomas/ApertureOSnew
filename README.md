@@ -71,7 +71,7 @@ and the orange one looks like this: °[image[{assets/asciiorange.png}
 
 Test it by running **cat** on the file. if it shows up, great! if not, youre done. download another ascii file or make your own.
 
-Then move the file to a safe location (i moved it to **~/.config/fastfetch/**).
+Then move the file to **~/.config/fastfetch/**.
 
 ████████████████████████████████████████████
 
