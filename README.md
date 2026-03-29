@@ -102,7 +102,7 @@ FRAGMENT OF THE ASCII JSONC CODE FOR CONFIGBLUE
 	     "source": "~/.config/fastfetch/aperture.txt",
     "type": "file",
     "color": {
-      "1": "cyan"
+      "1": "color"
     }
 ````
 
@@ -128,14 +128,14 @@ FRAGMENT OF THE ASCII JSONC CODE FOR CONFIGBLUE
 {
  "type": "os",
 "key": " ├Distro",
-"keyColor": "cyan"
+"keyColor": "color"
 },
 ````
 
 Where:
 
 ````
-"keyColor": "cyan"
+"keyColor": "color"
 ````
 sets keyColor to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB)
 
