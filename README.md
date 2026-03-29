@@ -3,9 +3,8 @@
 This is made on a debian based distro. Period. The commands will be for debian based distros, i am not doing the effort to
 write commands for distros i am not using because im just too lazy to care.
 
-This is also supposed to be a "fix" of Erlice's aperture os repository (hence the apertureosnew name) because it was last updated 8 years ago and also uses neofetch so that's not cool.
+This is also supposed to be a "fix" of Erlice's aperture os repository (hence the apertureosnew name) because it was last updated 8 years ago and also uses neofetch so that's not very "up to date" if you ask me.
 
-We will be using fastfetch, and making simple changes to the config file. This means that you have to generate a config.jsonc file. (if you dont know how to do this, the commands will be down below, or, just use my demonstration config :p)
 **Keep in mind that if you want to rice this as Erlice did, you should probably use the files in their repository, shown [here](https://github.com/Erlite/apertureos)**
 
 **Info**
