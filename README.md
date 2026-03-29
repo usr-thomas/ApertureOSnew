@@ -6,6 +6,7 @@ This also uses part of Erlice's aperture os repository (hence the apertureosnew 
 Keep in mind that if you want to rice this as Erlice did, you should probably use the files in their repository, shown [here](https://github.com/Erlite/apertureos)
 
 **Info**
+
 tiny repository to make your pc look like mine :)
 DE: Gnome
 WM theme (only relevant if youre also on ubuntu) Yaru Dark
