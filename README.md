@@ -84,15 +84,19 @@ Then paste these commands at the end IN THE SAME ORDER SHOWN HERE!!!!!:
 
 alias fastfetch='NO_CONFIG=1 fastfetch --logo ~/.config/fastfetch/aperture.txt --logo-color-1 "38;2;199;110;0" --config apertureconfig.jsonc' **(forces fastfetch to use the aperture logo with the orange theme, or replace "38;2;199;110;0" with cyan if you have a version of the wallpaper which has the blue variant of the aperture science logo)**
 
+████████████████████████████████████████████
+
 ****OPTIONAL: only paste this if you copied the config file and renamed it**
 
 alias oldfetch='NO_CONFIG=1 \fastfetch --config oldconfig.jsonc' **(runs vanilla fastfetch if you type oldfetch)**
 
-****OPTIONAL: only paste this if you copied the config file and renamed it**
+████████████████████████████████████████████
 
 fastfetch **(opens fastfetch when you open the terminal)**
 
 your file should now look like this:
+
+![image](assets/nano.png]
 
 save with ctrl + o and exit with ctrl + x.
 
