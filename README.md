@@ -21,7 +21,7 @@ Distro: Ubuntu 24.04.4
 
 Recommended if you use ubuntu: use the orange or blue theme in ubuntu so that the files on the desktop have an orange/blue subcolor, adding to the vibe
 
-Have atleast one braincell to know where stuff is (although, to be fair, if youre visiting this to customize fastfetch, you're probably missing a couple.)
+Have atleast one braincell to know where stuff is
 
 **Step 1: Install Conky and Conky Manager 2**
 
