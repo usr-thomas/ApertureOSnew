@@ -63,7 +63,11 @@ Then run ```sudo apt update``` AND ```sudo apt install fastfetch``` Fastfetch sh
 
 Download the **aperture.txt** ascii art which is the aperture science ascii art which looks like this: ![image](assets/ascii.png)
 
-****Note: The ascii file does NOT come automatically with the orange, you set that up. we will talk about that later.**
+****Note: The ascii file does NOT come automatically with the orange**
+
+Then navigate to **jsonc-files in this** repository and choose between configorange or configblue. These configs are for the blue and orange versions of the aperture science logos. The cyan one looks like this: ![image]{assets/asciicyan.png}
+
+and the orange one looks like this: °[image[{assets/asciiorange.png}
 
 Test it by running **cat** on the file. if it shows up, great! if not, youre done. download another ascii file or make your own.
 
