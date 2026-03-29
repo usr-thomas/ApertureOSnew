@@ -91,6 +91,53 @@ open the terminal and test it by running fastfetch.
 
 ****OPTIONAL AND DEBUGGING**
 
-**1; Colors don't look the same as the preview images.**
+**1; Colors don't look the same as the preview images. / Colors dont show up. / Ascii logo doesnt show up.**
 
-Solution: edit the
+Solution: check and edit the color variables (keyColor for the system info, 1 for ascii color)
+
+FRAGMENT OF THE ASCII JSONC CODE FOR CONFIGBLUE
+
+````json
+  "logo": {
+	     "source": "~/.config/fastfetch/aperture.txt",
+    "type": "file",
+    "color": {
+      "1": "cyan"
+    }
+````
+
+Where:
+
+````
+"1": "cyan"
+````
+Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB
+
+````
+  "logo": {
+	     "source": "~/.config/fastfetch/aperture.txt"
+````
+**"logo": {** dictates that the text under the brackets are for the logo config
+
+**"source": "<path>"** is the path to the ascii file. If the ascii art doesnt show (fastfetch shows the default logo) check if you have aperture.txt on the path said in the config file, or change it to **/home/$USER/.config/fastfetch/aperture.txt** or **/home/<your user here/.config/fastfetch/aperture.txt**.
+
+
+FRAGMENT OF THE ASCII JSONC CODE FOR CONFIGBLUE
+
+````json
+  "logo": {
+	     "source": "~/.config/fastfetch/aperture.txt",
+    "type": "file",
+    "color": {
+      "1": "cyan"
+    }
+````
+
+Where:
+
+````
+"1": "cyan"
+````
+Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB
+
+
