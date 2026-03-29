@@ -10,7 +10,7 @@ Keep in mind that if you want to rice this as Erlice did, you should probably us
 
 **Info**
 
-tiny repository to make your pc look like ![mine](ApertureOSnew/assets/desktop.jpg)
+tiny repository to make your pc look like this (assets/desktop.jpg)
  :)
 
 DE: Gnome
