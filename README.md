@@ -89,9 +89,9 @@ open the terminal and test it by running fastfetch.
 
 ████████████████████████████████████████████
 
-****OPTIONAL AND DEBUGGING**
+****DEBUGGING**
 
-**1; Colors don't look the same as the preview images. / Colors dont show up. / Ascii logo doesnt show up.**
+**Colors don't look the same as the preview images. / Colors dont show up. / Ascii logo doesnt show up.**
 
 Solution: check and edit the color variables (keyColor for the system info, 1 for ascii color)
 
