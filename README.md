@@ -2,6 +2,8 @@
 
 This is meant to be a "fix" of Erlice's aperture os repository (hence the apertureosnew name) because it was last updated 8 years ago and also uses neofetch so that's not very "up to date" if you ask me. They've also been offline for 5 years as im writing this, so i do not expect them to update it. Anyways, credits to [Erlice](https://github.com/Erlite) for the desktop background! Wherever they are...
 
+oh btw this is for debian based stuff
+
 **Keep in mind that if you want to rice this as Erlice did, you should probably use the files in their repository, shown [here](https://github.com/Erlite/apertureos)**
 
 **Info**
