@@ -23,7 +23,7 @@ Distro: Ubuntu 24.04.4
 
 Recommended if you use ubuntu: use the orange or blue theme in ubuntu so that the files on the desktop have an orange/blue subcolor, adding to the vibe
 
-Have atleast one braincell to know where stuff is
+Have atleast one braincell to know where stuff is (although, to be fair, if youre visiting this to customize fastfetch, you're probably missing a couple.)
 
 **Step 1: Install Conky and Conky Manager 2**
 
@@ -65,7 +65,7 @@ Download the **aperture.txt** ascii art which is the aperture science ascii art 
 
 ****Note: The ascii file does NOT come automatically with the orange**
 
-Then navigate to **jsonc-files in this** repository and choose between configorange or configblue. These configs are for the blue and orange versions of the aperture science logos. The cyan one looks like this: 
+Right now there are two available configs. These configs are for the blue and orange versions of the aperture science logos. The cyan one looks like this: 
 
 ![image](assets/asciiblue.png)
 
@@ -73,11 +73,24 @@ and the orange one looks like this:
 
 ![image](assets/asciiorange.png)
 
-Test it by running **cat** on the file. if it shows up, great! if not, download another ascii file or make your own.
+Test the txt by running **cat** on the file. if it shows up, great! if not, download another ascii file or make your own.
 
-Then move the file to **~/.config/fastfetch/**.
+Then move the **aperture.txt** ascii file to **~/.config/fastfetch/**. (if you dont have this directory, check if its hidden by pressing ctrl + h, and if it still doesnt show up, make it by either doing it manually or running ```fastfetch --get-config```, then renaming the config file made on the directory to anything else BUT config.jsonc. I renamed it to oldconfig.jsonc, its your choice.)
+****/!\: if you choose another path, you have to edit the path on the config file you chose.****
 
 ████████████████████████████████████████████
 
-Now, test if fastfetch sees the file by running this command: ```fastfetch --logo ~/.config/fastfetch/aperture.txt``` (or the path you chose). If you did everything right, you should now have a fastfetch window with the aperture logo on it. Great! now lets make it permanent.
+Now, test if fastfetch sees the file by running this command: ```fastfetch --logo ~/.config/fastfetch/aperture.txt``` If you did everything right, you should now have a fastfetch window with the aperture logo on it. Great! now lets make it permanent.
 
+****Download the jsonc files located at **/jsonc-files/****
+
+Choose between **configblue.jsonc** or **configorange.jsonc** and move them to **~/.config/fastfetch/**. ****RENAME THE ONE YOURE GOING TO USE TO ```config.jsonc``` OR ELSE FASTFETCH WONT WORK****
+open the terminal and test it by running fastfetch.
+
+████████████████████████████████████████████
+
+****OPTIONAL AND DEBUGGING**
+
+**1; Colors don't look the same as the preview images.**
+
+Solution: edit the
