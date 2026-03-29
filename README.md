@@ -111,7 +111,7 @@ Where:
 ````
 "1": "cyan"
 ````
-Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB
+Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB)
 
 ````
   "logo": {
@@ -125,19 +125,18 @@ Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using T
 FRAGMENT OF THE ASCII JSONC CODE FOR CONFIGBLUE
 
 ````json
-  "logo": {
-	     "source": "~/.config/fastfetch/aperture.txt",
-    "type": "file",
-    "color": {
-      "1": "cyan"
-    }
+{
+ "type": "os",
+"key": " ├Distro",
+"keyColor": "cyan"
+},
 ````
 
 Where:
 
 ````
-"1": "cyan"
+"keyColor": "cyan"
 ````
-Sets color 1 to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB
+sets keyColor to a color dictated (use 32;2;r;g;b to add a specific value using TrueColor RGB)
 
 
