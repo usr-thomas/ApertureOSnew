@@ -61,4 +61,4 @@ Generate a config file with "fastfetch --gen-config", which will make a config.j
 
 Configure fastfetch:
 
-Download the aperture.txt ascii art which is the aperture science ascii art which looks like this: ![image](assets/"Screenshot from 2026-03-28 23-20-41.png")
+Download the aperture.txt ascii art which is the aperture science ascii art which looks like this: ![image](assets/ascii.png)
