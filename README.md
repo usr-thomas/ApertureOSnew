@@ -39,7 +39,7 @@ after doing all this you have to set up the windows to match mine. Im using conk
 
 ****Note**
 
-Some things are not going to work as expected, like seamod. You have to edit these manually, because the transparency breaks. Either use **nano** to set the **own_window_type** to **desktop** or a file editor. I also removed the ethernet part of seamod to fit my screen, you do this by manually tagging out the network data with # at the start so that the commands get ignored. Keep in mind that i havent found a way to remove the graph, so just hide it on a part of the screen thats not rendered.
+Some things are not going to work as expected, like seamod. You have to edit these manually, because the transparency breaks (for some reason) Either use **nano** to set the **own_window_type** to **desktop** or a file editor.
 
 **Step 2: Desktop and fastfetch**
 
