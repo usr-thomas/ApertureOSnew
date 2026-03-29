@@ -21,7 +21,7 @@ Distro: Ubuntu 24.04.4
 
 **Prerequisites**
 
-Recommended if you use ubuntu: use the orange theme in ubuntu so that the files on the desktop have an orange subcolor, adding to the vibe :p
+Recommended if you use ubuntu: use the orange or blue theme in ubuntu so that the files on the desktop have an orange/blue subcolor, adding to the vibe
 
 Have atleast one braincell to know where stuff is
 
