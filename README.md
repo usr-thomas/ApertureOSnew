@@ -96,7 +96,7 @@ fastfetch **(opens fastfetch when you open the terminal)**
 
 your file should now look like this:
 
-![image](assets/nano.png]
+![image](assets/nano.png)
 
 save with ctrl + o and exit with ctrl + x.
 
