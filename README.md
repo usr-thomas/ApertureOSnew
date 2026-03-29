@@ -37,7 +37,9 @@ Add repository: sudo add-apt-repository ppa:teejee2008/foss
 
 Then run: "sudo apt update" AND "sudo apt install conky-manager2"
 
-Then after doing all this you have to set up the windows to match mine. Im using conky seamod, gotham, the 4 core cpu panel, and the network + process panel. The network, gotham, and conky seamod widgets are on the second screen, and the 4 core cpu panel + process panel on the other screen.
+████████████████████████████████████████████
+
+after doing all this you have to set up the windows to match mine. Im using conky seamod, gotham, the 4 core cpu panel, and the network + process panel. The network, gotham, and conky seamod widgets are on the second screen, and the 4 core cpu panel + process panel on the other screen.
 
 ****Note**
 
@@ -56,7 +58,8 @@ Install fastfetch:
 Repository: sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 
 Then run "sudo apt update" AND "sudo apt install fastfetch". Fastfetch should now be installed.
-***************************************
+
+████████████████████████████████████████████
 
 Generate a config file with "fastfetch --gen-config", which will make a config.jsonc at ~/.config/fastfetch/config.jsonc.
 You also have to rename both config.jsonc files to apertureconfig.jsonc and oldconfig.jsonc if you plan to have 2 fastfetch commands (one that runs the modified one and one that runs the original fastfetch command. if you dont plan to do this just skip this step of copying the file). 
@@ -71,9 +74,9 @@ Test it by running cat on the file. if it shows up, great! if not, youre done. d
 
 Then move the file to a safe location (i moved it to ~/.config/fastfetch/).
 
-Now, test if fastfetch sees the file by running this command: fastfetch --logo ~/.config/fastfetch/aperture.txt (or the path you chose). If you did everything right, you should now have a fastfetch window with the aperture logo on it. Great! now lets make it permanent.
+████████████████████████████████████████████
 
-*******************************************
+Now, test if fastfetch sees the file by running this command: fastfetch --logo ~/.config/fastfetch/aperture.txt (or the path you chose). If you did everything right, you should now have a fastfetch window with the aperture logo on it. Great! now lets make it permanent.
 
 Open the terminal and run "nano ~/.bashrc". 
 
