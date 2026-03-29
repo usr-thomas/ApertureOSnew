@@ -58,7 +58,35 @@ Repository: sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 Then run "sudo apt update" AND "sudo apt install fastfetch". Fastfetch should now be installed.
 
 Generate a config file with "fastfetch --gen-config", which will make a config.jsonc at ~/.config/fastfetch/config.jsonc.
+You also have to rename both config.jsonc files to apertureconfig.jsonc and oldconfig.jsonc if you plan to have 2 fastfetch commands (one that runs the modified one and one that runs the original fastfetch command. if you dont plan to do this just skip this step of copying the file). 
 
 Configure fastfetch:
 
 Download the aperture.txt ascii art which is the aperture science ascii art which looks like this: ![image](assets/ascii.png)
+
+****Note: The ascii file does NOT come automatically with the orange, you set that up. we will talk about that later.**
+
+Test it by running cat on the file. if it shows up, great! if not, youre done. download another ascii file or make your own.
+
+Then move the file to a safe location (i moved it to ~/.config/fastfetch/).
+
+Now, test if fastfetch sees the file by running this command: fastfetch --logo ~/.config/fastfetch/aperture.txt (or the path you chose). If you did everything right, you should now have a fastfetch window with the aperture logo on it. Great! now lets make it permanent.
+
+Open the terminal and run "nano ~/.bashrc". 
+
+Then paste these commands at the end:
+
+fastfetch (opens fastfetch when you run the terminal)
+
+alias fastfetch='NO_CONFIG=1 fastfetch --logo ~/.config/fastfetch/aperture.txt --logo-color-1 "38;2;199;110;0" --config apertureconfig.jsonc' (forces fastfetch to use the aperture logo with the orange theme, or replace "38;2;199;110;0" with cyan if you have a version of the wallpaper which has the blue variant of the aperture science logo) 
+
+****OPTIONAL: only paste this if you copied the config file and renamed it**
+
+alias oldfetch='NO_CONFIG=1 \fastfetch --config oldconfig.jsonc' (runs vanilla fastfetch if you type oldfetch)
+
+save with ctrl + o and exit with ctrl + x.
+
+Now, go to the config files you copied, and, if you like, add or remove lines to the json file that the alias fastfetch command points to (in my case, apertureconfig.jsonc)
+
+now run source ~/.bashrc in the terminal and youre done.
+
