@@ -64,6 +64,7 @@ Then run ```sudo apt update``` AND ```sudo apt install fastfetch``` Fastfetch sh
 Download the **aperture.txt** ascii art which is the aperture science ascii art which looks like this: ![image](assets/ascii.png)
 
 ****Note: The ascii file does NOT come automatically with the orange**
+****Note2 : There's also an ascii file called ```aperturewithA.txt```. This is literally the same logo but with the A on the side, just like the version of the logo ingame with aperture science on the side. Keep in mind this was just a silly thing i made, and IS NOT FORMATTED TO FIT AS WELL AS THE NORMAL APERTURE FILE. your ascii art will take 90% of the terminal. I dont recommend using it.**
 
 Right now there are two available configs. These configs are for the blue and orange versions of the aperture science logos. The cyan one looks like this: 
 
