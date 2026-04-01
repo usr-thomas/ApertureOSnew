@@ -17,31 +17,7 @@ WM theme (only relevant if youre also on ubuntu) Yaru Dark
 
 Distro: Ubuntu 24.04.4
 
-**Prerequisites**
-
-Recommended if you use ubuntu: use the orange or blue theme in ubuntu so that the files on the desktop have an orange/blue subcolor, adding to the vibe
-
-Have atleast one braincell to know where stuff is
-
-**Step 1: Install Conky and Conky Manager 2**
-
-RUN:
-
-``` sudo apt update ``` AND ```sudo apt install conky-all``` (if you get an error you should probably set up the repository for it, but most distros come with the repository on it anyway)
-
-Then for installing Conky Manager 2:
-
-Add repository: ```sudo add-apt-repository ppa:teejee2008/foss```
-
-Then run: ```sudo apt update``` AND ```sudo apt install conky-manager2```
-
-████████████████████████████████████████████
-
-after doing all this you have to set up the windows to match mine. Im using conky seamod, gotham, the 4 core cpu panel, and the network + process panel. The network, gotham, and conky seamod widgets are on the second screen, and the 4 core cpu panel + process panel on the other screen.
-
-****Note**
-
-Some things are not going to work as expected, like seamod. You have to edit these manually, because the transparency breaks (for some reason) Either use **nano** to set the **own_window_type** to **desktop** or a file editor.
+hold on remodeling this shit
 
 ![this!](assets/desktopexample.png)
 
@@ -61,17 +37,9 @@ Then run ```sudo apt update``` AND ```sudo apt install fastfetch``` Fastfetch sh
 
 ****Configure fastfetch:**
 
-Download the **aperture.txt** ascii art which is the aperture science ascii art which looks like this: ![image](assets/ascii.png)
-
-****Note: The ascii file does NOT come automatically with the orange**
+Download the **aperture.txt** ascii art which is the aperture science ascii art.
 
 Right now there are two available configs. These configs are for the blue and orange versions of the aperture science logos. The cyan one looks like this: 
-
-![image](assets/asciiblue.png)
-
-and the orange one looks like this: 
-
-![image](assets/asciiorange.png)
 
 Test the txt by running **cat** on the file. if it shows up, great! if not, download another ascii file or make your own.
 
