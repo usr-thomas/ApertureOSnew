@@ -2,7 +2,7 @@
 
 Have you ever wanted your system to look like it was ported straight from the computers on the observation labs in portal 1? Or do you just like the portal aesthetic? 
 
-Maybe like this? ![image](assets/desktop.png)
+Maybe like this? ![image](assets/desktopexample.png)
 
 Well fear not! For i have the solution.
 
