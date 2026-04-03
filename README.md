@@ -2,6 +2,8 @@
 
 Have you ever wanted your system to look like it was ported straight from the computers on the observation labs in portal 1? Or do you just like the portal aesthetic? 
 
+Maybe like this? ![image](assets/desktop.png)
+
 Well fear not! For i have the solution.
 
 In this repository are the config files and the ascii art to customize fastfetch to your liking! there are also assets as wallpapers and whatnot.
