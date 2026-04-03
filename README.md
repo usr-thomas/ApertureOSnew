@@ -11,4 +11,8 @@ In this repository are the config files and the ascii art to customize fastfetch
 
 There's also default conky, with some themes that came with CM2.
 
+**Some conky themes break, so just set the own window type variable to desktop,**
+
+![image](assets/desktopexample.png)
+
 **Please install font-awesome before installing configupdated, since the unicode art contains fontawesome lettering! if something breaks, you are always up to replacing the broken icon!**
