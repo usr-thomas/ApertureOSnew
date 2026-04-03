@@ -9,4 +9,6 @@ Well fear not! For i have the solution.
 
 In this repository are the config files and the ascii art to customize fastfetch to your liking! there are also assets as wallpapers and whatnot.
 
+There's also default conky, with some themes that came with CM2.
+
 **Please install font-awesome before installing configupdated, since the unicode art contains fontawesome lettering! if something breaks, you are always up to replacing the broken icon!**
