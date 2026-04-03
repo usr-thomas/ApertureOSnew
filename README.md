@@ -15,4 +15,4 @@ There's also default conky, with some themes that came with CM2.
 
 ![image](assets/desktopexample.png)
 
-**Please install font-awesome before installing configupdated, since the unicode art contains fontawesome lettering! if something breaks, you are always up to replacing the broken icon!**
+**Please install font-awesome before installing configupdated, since the unicode art contains fontawesome lettering! if something breaks, you are always invited to replacing the broken icon!**
